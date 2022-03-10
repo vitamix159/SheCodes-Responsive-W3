@@ -106,3 +106,25 @@
     color: white;
   }
   
+  @media (max-width: 575px) {
+      .hide {
+          display: none;
+      }
+      body {
+          text-align: center;
+      }
+
+      h1 {
+          font-size: 46px;
+      }
+      h2 {
+          font-size: 26px;
+      }
+      h3 {
+          font-size: 14px;
+      }
+      
+      h2 {
+          margin-top: 0;
+      }
+  }
